@@ -1,0 +1,8 @@
+<div class="py-4 mb-2">
+  <h3 class="d-inline-block">Edit Videocall</h3>
+</div>
+
+<%= formFor(videocall, {action: videocallPath({ videocall_id: videocall.ID }), method: "PUT"}) { %>
+  <%= partial("videocalls/form.html") %>
+  <%= linkTo(videocallPath({ videocall_id: videocall.ID }), {class: "btn btn-warning", "data-confirm": "Are you sure?", body: "Cancel"}) %>
+<% } %>

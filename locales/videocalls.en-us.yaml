@@ -1,0 +1,6 @@
+- id: "videocall.created.success"
+  translation: "Videocall was successfully created."
+- id: "videocall.updated.success"
+  translation: "Videocall was successfully updated."
+- id: "videocall.destroyed.success"
+  translation: "Videocall was successfully destroyed."
