@@ -2,6 +2,14 @@
 
 1. Install Golang
 2. Install buffalo (gobuffalo.io)
+3. Install Atom (atom.io) & https://github.com/bongnv/atom-ide-golang for code completion (follow instructions for adding the required packages)
+	* go get -u golang.org/x/tools/cmd/goimports
+	* go get -u github.com/nsf/gocode
+	* go get -u github.com/zmb3/gogetdoc
+	* go get -u golang.org/x/tools/cmd/guru
+	* go get -u golang.org/x/lint/golint
+	* go get -u github.com/ramya-rao-a/go-outline
+4. you can also install a terminal (platformio-ide-terminal is nice)
 3. Install docker and docker-compose
 4. Install docker-machine & create a VM someplace (`docker-machine -d digitalocean --digitalocean-api-key $API_KEY create bob` or whatever then eval `docker-machine env bob`)
 3. `buffalo new boiler --db-type=postgres` (that made this repo)
